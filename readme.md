@@ -1,7 +1,6 @@
 # Pepper imitates human poses
 
 ## Overview
-Pepper imitates 3D poses from 2D images.  
 Pepperが撮影した画像データに映る人間のポーズを真似する．  
 [HybrIK](https://github.com/Jeff-sjtu/HybrIK)を利用し，画像データから3D空間上の座標データを取り出した．
 
@@ -44,9 +43,9 @@ root
 ```
 
 以下のように実行する．  
-remote  
+remote側  
 `python ./server.py`  
-local  
+local側  
 `python ./main.py`  
 
 ## Reference
