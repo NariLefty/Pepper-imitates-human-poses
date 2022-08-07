@@ -1,8 +1,9 @@
 # Pepper imitates human poses
 
 ## Overview
-Pepperが撮影した画像データに映る人間のポーズを真似する．  
+Pepperが画像データに映る人間のポーズを真似する．  
 [HybrIK](https://github.com/Jeff-sjtu/HybrIK)を利用し，画像データから3D空間上の座標データを取り出した．
+そこから関節の角度を計算し，[NAOqiモジュール](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/sdks/python-sdk/naoqi-python-api)を使用してPepperに指示した．
 
 ## Requirement
 remote(GPU Server)
